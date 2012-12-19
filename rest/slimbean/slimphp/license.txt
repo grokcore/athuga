@@ -1,0 +1,3 @@
+MIT Public License
+See:
+http://www.slimframework.com/license
