@@ -1,4 +1,18 @@
-A drop in, cloud-able comment system.
+# Athuga
+A RESTful powered, drop in, threaded, OAuth login (Facebook,Wwitter,G+), comment system.
 
-Athuga is in it's early proto type stages.   
-Adding comments should be easy and highly customizable, that is the goal of Athuga.
+Athuga allows you to place a script tag into any page to enable to add a comment system.
+Currently the RESTful interface is a mashup of two of the best repo's I've found, the SlimeFramework and RedBean.  It also includes HybridAuth I aim to bring Node support, Python and Ruby as well, in that order.
+
+## Requirements
+PHP5.3+
+MySQL
+
+## How to use
+In your location of choice on your web server.
+git clone https://github.com/grokcore/athuga.git
+Configure your database settings in rest/config.php.   (Your tables will be created with the first comment submitted).
+
+Create a web page that loads either zepto or jQuery, and place this script tag where you want the comments to appear:
+>         <script src="athuga.js.php"></script>
+(optionally of course, set the absolute path for the athuga.js.php source.)
