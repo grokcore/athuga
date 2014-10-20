@@ -16,3 +16,9 @@ Configure your database settings in rest/config.php.   (Your tables will be crea
 Create a web page that loads either zepto or jQuery, and place this script tag where you want the comments to appear:
 >         <script src="athuga.js.php"></script>
 (optionally of course, set the absolute path for the athuga.js.php source.)
+
+
+
+
+
+http://jsfiddle.net/qa4xz9zc/
